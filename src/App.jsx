@@ -1,12 +1,13 @@
-import Home from './pages/Home'
-import './App.css'
+import MusicPlayer from './components/organisms/Music';
+import './App.css';
 
 function App() {
-
-
   return (
-    <Home></Home>
-  )
+    <div id='cont'>
+      <h1>Reproductor de Música</h1>
+      <MusicPlayer />
+    </div>
+  );
 }
 
-export default App
+export default App;
